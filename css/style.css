@@ -6,17 +6,26 @@ body {
 }
 .main{
   max-width: 600px;
-  margin-top:auto;
-  margin-left: auto;
-  margin-right: auto;
   border-style: double;
   border-radius: 5px;
   margin-bottom: 50px;
 }
-.js-name {
-  margin-left: auto;
-  margin-right: auto;
+.js-option{
+  height: 15px;
+  width: 15px;
+  margin: 20px;
+  padding: 15px 30px 15px 62px;
+  border: 3px solid #fff;
+  border-radius: 260px;
+  color: #fff;
+  background-color: #6a8494;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color .2s, box-shadow .2s;
 }
+
 #compute{
     background-color: #F08080; /* Green */
     border-style: solid ;
@@ -25,10 +34,13 @@ body {
     color: white;
     padding: 15px 32px;
     text-align: center;
-    text-color:
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    box-shadow: 10px 10px 5px grey;
-    margin: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    cursor: pointer;
 }
+#compute:hover {opacity: 0.8}

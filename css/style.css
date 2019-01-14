@@ -1,8 +1,12 @@
 body {
-  background: url(C:/Users/grond/Desktop/ESILV/S8/WAA/Workshop2/background2.jpg);
-  color: #FFF8DC;
+  /*background: url(C:/Users/grond/Desktop/ESILV/S8/WAA/Workshop2/background2.jpg);*/
+  color: #FFFFFF;
 
 
+}
+
+h1{
+  background-color: #483D8B	;
 }
 .main{
   max-width: 600px;
@@ -11,19 +15,54 @@ body {
   margin-bottom: 50px;
 }
 .js-option{
+
+  color: #483D8B;
   height: 15px;
   width: 15px;
   margin: 20px;
   padding: 15px 30px 15px 62px;
   border: 3px solid #fff;
   border-radius: 260px;
-  color: #fff;
   background-color: #6a8494;
   box-shadow: 0 0 20px rgba(0, 0, 0, .2);
   white-space: nowrap;
   cursor: pointer;
   user-select: none;
   transition: background-color .2s, box-shadow .2s;
+}
+label{
+  color: #483D8B;
+}
+
+.js-price-by-hour{
+  margin-bottom: 5px;
+}
+.js-price-by-person{
+  margin-bottom: 5px;
+}
+.js-name{
+  margin-bottom: 5px;
+}
+.js-time{
+  margin-bottom: 5px;
+}
+.js-persons{
+  margin-bottom: 5px;
+}
+.js-option{
+  margin-bottom: 5px;
+}
+.hh {
+  width: 20px
+}
+.pp {
+  width: 20px
+}
+.cc {
+  width: 20px
+}
+.bb {
+  width: 20px
 }
 
 #compute{

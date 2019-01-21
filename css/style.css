@@ -1,6 +1,7 @@
 body {
   /*background: url(C:/Users/grond/Desktop/ESILV/S8/WAA/Workshop2/background2.jpg);*/
   color: #FFFFFF;
+  align-items: center;
 
 
 }
@@ -8,50 +9,50 @@ body {
 h1{
   background-color: #483D8B	;
 }
+
+
 .main{
   max-width: 600px;
   border-style: double;
   border-radius: 5px;
   margin-bottom: 50px;
 }
-.js-option{
 
-  color: #483D8B;
-  height: 15px;
-  width: 15px;
-  margin: 20px;
-  padding: 15px 30px 15px 62px;
-  border: 3px solid #fff;
-  border-radius: 260px;
-  background-color: #6a8494;
-  box-shadow: 0 0 20px rgba(0, 0, 0, .2);
-  white-space: nowrap;
-  cursor: pointer;
-  user-select: none;
-  transition: background-color .2s, box-shadow .2s;
+h2{
+  color:#000000	;
+  font-size: 16px;
 }
-label{
-  color: #483D8B;
+h3{
+  color:#000000;
+  font-size: 16px;
+}
+.js-option label {
+    color:green;
+    font-family: Consolas, Baskerville, 'Segoe UI', sans-serif;
+}
+label { background-color:#FFFFFF; color:#000000; }
+
+
+.bar-name-input{
+  margin-bottom: 5px;
+}
+.pricehour-input{
+  margin-bottom: 5px;
+}
+.priceperson-input{
+  margin-bottom: 5px;
+}
+.booker-name-input{
+  margin-bottom: 5px;
+}
+.time-input{
+  margin-bottom: 5px;
+}
+.persons-input{
+  margin-bottom: 5px;
 }
 
-.js-price-by-hour{
-  margin-bottom: 5px;
-}
-.js-price-by-person{
-  margin-bottom: 5px;
-}
-.js-name{
-  margin-bottom: 5px;
-}
-.js-time{
-  margin-bottom: 5px;
-}
-.js-persons{
-  margin-bottom: 5px;
-}
-.js-option{
-  margin-bottom: 5px;
-}
+
 .hh {
   width: 20px
 }
